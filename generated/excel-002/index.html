@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plombier  Vedène - IPC84 Plomberie</title>
+    <meta name="description" content="Plombier professionnel à  Vedène. Dépannage urgent, Installation sanitaire, Chauffage, Débouchage. Devis gratuit.">
+    <meta name="theme-color" content="#3B82F6">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #3B82F6;
+            --primary-hover: #3B82F6dd;
+            --bg-dark: #0F172A;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --text-light: #F8FAFC;
+            --text-muted: #94A3B8;
+            --glass-bg: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .purchase-banner {
+            background: linear-gradient(90deg, #EC4899, #8B5CF6, #3B82F6);
+            background-size: 200% 200%;
+            animation: gradientMove 5s ease infinite;
+            color: white;
+            text-align: center;
+            padding: 12px 20px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .purchase-banner button {
+            background: white;
+            color: #0F172A;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 30px;
+            font-weight: 800;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        section { 
+            padding: 120px 0;
+            border-bottom: 1px solid var(--glass-border); 
+        }
+        
+        .section-title {
+            font-size: 1.8rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 80px; 
+            background: linear-gradient(to right, #FFFFFF, #94A3B8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            padding: 80px 20px 120px 20px; 
+            border-bottom: 1px solid var(--glass-border);
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80vw;
+            height: 80vw;
+            background: radial-gradient(circle, #3B82F626 0%, rgba(15, 23, 42, 0) 70%);
+            z-index: -1;
+        }
+        .badge {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            margin-bottom: 25px;
+            backdrop-filter: blur(10px);
+            animation: slideDown 0.8s ease-out;
+        }
+        .badge span { color: #FBBF24; font-weight: bold; }
+        h1 {
+            font-size: clamp(2.2rem, 8vw, 4rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #FFFFFF, #94A3B8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: slideUp 1s ease-out 0.2s both;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 650px;
+            margin-bottom: 40px;
+            animation: slideUp 1s ease-out 0.4s both;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 16px 35px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            border-radius: 50px;
+            box-shadow: 0 10px 30px #3B82F666;
+            transition: all 0.3s ease;
+            animation: slideUp 1s ease-out 0.6s both;
+            width: 100%;
+            text-align: center;
+            max-width: 350px;
+        }
+
+        .social-proof {
+            margin-top: 50px; 
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 25px;
+            width: 100%;
+            max-width: 800px;
+            backdrop-filter: blur(12px);
+            animation: fadeIn 1.5s ease-out 0.8s both;
+        }
+        .stars { font-size: 1.3rem; color: #FBBF24; margin-bottom: 8px; }
+        .quote { font-size: 1rem; font-style: italic; color: #E2E8F0; margin-bottom: 10px; }
+
+        .swipe-row {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding-bottom: 20px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .swipe-row::-webkit-scrollbar { display: none; }
+        .swipe-row { -ms-overflow-style: none; scrollbar-width: none; }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 25px 20px;
+            min-width: 260px;
+            flex: 1;
+            scroll-snap-align: start;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        
+        .card-icon { font-size: 2rem; margin-bottom: 15px; }
+        .card h3 { font-size: 1.15rem; margin-bottom: 10px; color: white; }
+        .card p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.5; }
+        
+        .price-tag {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: white;
+            margin: 10px 0 15px 0;
+        }
+        .price-tag span { font-size: 0.9rem; color: var(--text-muted); font-weight: 400; }
+        .card.featured {
+            background: linear-gradient(145deg, #3B82F633, rgba(30, 41, 59, 0.8));
+            border-color: var(--primary);
+        }
+
+        .map-wrapper {
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--glass-border);
+            height: 350px;
+            width: 100%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 80px 20px; 
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        @keyframes slideDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes gradientMove { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+
+        @media (min-width: 900px) {
+            .swipe-row { overflow-x: visible; }
+            .card.featured { transform: scale(1.05); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="purchase-banner">
+        🎉 Site de démonstration pour IPC84 Plomberie
+        <button onclick="window.location.href='https://buy.stripe.com/8wM8A93dR8Xl7aE6op'">✨ Obtenir mon site - 300€</button>
+    </div>
+
+    <header class="hero container">
+        <div class="badge">Recommandé à <span>4.8/5</span></div>
+        <h1>IPC84 Plomberie</h1>
+        <p>Votre expert <strong>Plombier</strong> à <strong> Vedène</strong>. Plombier professionnel à votre service</p>
+        <a href="tel:+33 6 35 77 18 50" class="cta-button">Appeler le +33 6 35 77 18 50</a>
+        
+        <div class="social-proof">
+            <div class="stars">★★★★★</div>
+            <p class="quote">"Excellent travail, très propre et soigné. Tarifs transparents."</p>
+            <p style="font-size: 0.85rem; color: #94A3B8;">Basé sur <strong>127 avis vérifiés</strong></p>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2 class="section-title">Nos Services</h2>
+        <div class="swipe-row">
+            
+            <div class="card">
+                <div class="card-icon">🔧</div>
+                <h3>Dépannage urgent</h3>
+                <p>Fuite, inondation, problème urgent</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🚿</div>
+                <h3>Installation sanitaire</h3>
+                <p>Douche, baignoire, lavabo</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔥</div>
+                <h3>Chauffage</h3>
+                <p>Chaudière, radiateur, plancher chauffant</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🚽</div>
+                <h3>Débouchage</h3>
+                <p>Canalisation, WC, évier</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="section-title">Nos Tarifs</h2>
+        <div class="swipe-row">
+            
+            <div class="card ">
+                <h3>Dépannage</h3>
+                <div class="price-tag">90€</div>
+                <p>Intervention urgente 24/7</p>
+            </div>
+            <div class="card featured">
+                <h3>Installation</h3>
+                <div class="price-tag">300€</div>
+                <p>À partir de</p>
+            </div>
+            <div class="card ">
+                <h3>Débouchage</h3>
+                <div class="price-tag">70€</div>
+                <p>Canalisation simple</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" style="border-bottom: none;">
+        <h2 class="section-title">Zone d'Intervention</h2>
+        <div class="map-wrapper">
+            <iframe 
+                width="100%" 
+                height="100%" 
+                frameborder="0" 
+                style="border:0;" 
+                allowfullscreen="" 
+                aria-hidden="false" 
+                tabindex="0"
+                src="https://maps.google.com/maps?q=IPC84%20Plomberie%20%2084271%20CEDEX%2C%20%20Ved%C3%A8ne&t=&z=14&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>📍  84271 CEDEX,  Vedène | 📞 +33 6 35 77 18 50</p>
+        <p style="margin-top: 10px;">© 2026 IPC84 Plomberie - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>

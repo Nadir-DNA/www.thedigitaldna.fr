@@ -1,0 +1,55 @@
+=== Prospection Digital DNA - dim. 22 févr. 2026 18:37:58 CET ===
+
+📡 Téléchargement feuille triée (gid=770612610)...
+🚀 Téléchargement CSV depuis Google Sheets
+
+📊 Sheet ID: 1rleRNrHQ7dG_oSwG1jsSMLtMD3B9Hpu5O5090yPfubg
+📁 Output: /tmp/prospects.csv
+
+📡 Méthode 1: API Google Sheets...
+✅ CSV téléchargé via API: /tmp/prospects.csv
+   158 lignes, 26 colonnes
+✅ CSV prêt: /tmp/prospects.csv (trié manuellement)
+
+🚀 Lancement prospection: 10 prospects...
+[2026-02-22T17:38:03.096Z] 🚀 DÉMARRAGE PROSPECTION QUOTIDIENNE
+[2026-02-22T17:38:03.147Z] 📊 Objectif: 10 prospects aujourd'hui
+[2026-02-22T17:38:03.147Z] 📁 Fichier: /tmp/prospects.csv
+
+[2026-02-22T17:38:03.149Z] 📊 Historique: 20 prospects déjà traités
+[2026-02-22T17:38:03.150Z] 📖 Lecture du CSV...
+[2026-02-22T17:38:03.181Z] ✅ 157 lignes lues
+[2026-02-22T17:38:03.182Z] 📋 Prospects en attente: 0
+[2026-02-22T17:38:03.183Z] 🎯 Traitement de 0 prospects
+
+[2026-02-22T17:38:03.183Z] ✅ Tous les prospects ont été contactés !
+
+📝 Mise à jour du statut Google Sheets...
+📝 Mise à jour du statut Google Sheets...
+
+✅ 10 prospects traités avec succès
+
+✅ Fichiers de mise à jour créés:
+   📄 JSON: /home/nadir/Bureau/SiteVitrine/scripts/status-update-2026-02-22.json
+   📄 CSV: /home/nadir/Bureau/SiteVitrine/scripts/status-update-2026-02-22.csv
+
+📝 Pour mettre à jour Google Sheets:
+   1. Ouvre ton Google Sheets
+   2. Fichier → Importer
+   3. Sélectionne: status-update-2026-02-22.csv
+   4. Choisis "Remplacer les données" ou "Ajouter"
+   5. Vérifie que les colonnes correspondent
+
+📋 Résumé des mises à jour:
+   1. Nicolas Berthier - Avocat PÃ©naliste, PÃ©nal des Affaires, Dommage corporel, Cour d'assises, Comparution ImmÃ©diate, Garde-Ã -Vue → SITE_GENERE
+   2. Hazzan David Avocat → SITE_GENERE
+   3. AMG Avocats → SITE_GENERE
+   4. LÃ©na DENICOURT Successeur de TRILOFF AVOCAT (cabinet fermÃ©) → SITE_GENERE
+   5. XAVIER COLAS → SITE_GENERE
+   6. SUDAIX - SociÃ©tÃ© d'Avocats → SITE_GENERE
+   7. Avocat Virginia Dumont Scognamiglio → SITE_GENERE
+   8. MaÃ®tre Olivier Rosato → SITE_GENERE
+   9. Avocat Marseille MaÃ®tre Riahi → SITE_GENERE
+   10. Avocat Delavaud Anne-Sophie → SITE_GENERE
+
+=== Fin dim. 22 févr. 2026 18:38:03 CET - Code: 0 ===

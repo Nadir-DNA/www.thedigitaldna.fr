@@ -1,0 +1,30 @@
+{
+  "id": "excel-004",
+  "raison_sociale": "Pressing Air Pur",
+  "activite": "Pressing",
+  "telephone": "+33 4 92 61 54 49",
+  "email": "pressing.air.pur@email.com",
+  "adresse": " 5300,  Ribiers",
+  "ville": " Ribiers",
+  "code_postal": "",
+  "description": null,
+  "services": [
+    "Pressing",
+    "Devis gratuit",
+    "Intervention rapide"
+  ],
+  "rating": null,
+  "reviews": 45,
+  "google_maps_url": "https://www.google.com/maps/place/Pressing+Air+Pur/@44.1938904,5.942586299999999,14z/data=!4m8!1m2!2m1!1sPressing+Air+Pur!3m4!1s0x12cba6f66bf99529:0x5c07b88c9f616360!8m2!3d44.1938904!4d5.942586299999999",
+  "place_id": "ChIJKZX5a_amyxIRYGNhn4y4B1w",
+  "_source": "outscraper_excel",
+  "_filtered_at": "2026-02-21T16:48:38.694Z",
+  "_id": "excel-004",
+  "address": null,
+  "phone": null,
+  "photos": [],
+  "review_count": null,
+  "hours": null,
+  "_enriched": true,
+  "_enrichedAt": "2026-02-21T16:49:21.145Z"
+}

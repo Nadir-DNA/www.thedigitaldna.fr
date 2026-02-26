@@ -1,0 +1,281 @@
+=== Prospection Digital DNA - dim. 22 févr. 2026 17:30:02 CET ===
+
+📡 Téléchargement feuille triée (gid=770612610)...
+🚀 Téléchargement CSV depuis Google Sheets
+
+📊 Sheet ID: 1rleRNrHQ7dG_oSwG1jsSMLtMD3B9Hpu5O5090yPfubg
+📁 Output: /tmp/prospects.csv
+
+📡 Méthode 1: API Google Sheets...
+⚠️  API échouée: error:1E08010C:DECODER routines::unsupported
+   Bascule vers Playwright...
+🎭 Méthode 2: Playwright...
+   Connexion à Google Sheets...
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+browserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Looks like you launched a headed browser without having a XServer running.                     ║
+║ Set either 'headless: true' or use 'xvfb-run <your-playwright-app>' before running Playwright. ║
+║                                                                                                ║
+║ <3 Playwright Team                                                                             ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════╝
+Call log:
+  - <launching> /home/nadir/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-fRICH9 --remote-debugging-pipe --no-startup-window
+  - <launched> pid=1378834
+  - [pid=1378834][err] [1378834:1378834:0222/173012.330470:ERROR:ui/ozone/platform/x11/ozone_platform_x11.cc:256] Missing X server or $DISPLAY
+  - [pid=1378834][err] [1378834:1378834:0222/173012.331029:ERROR:ui/aura/env.cc:246] The platform failed to initialize.  Exiting.
+  - [pid=1378834] <gracefully close start>
+  - [pid=1378834] <kill>
+  - [pid=1378834] <will force kill>
+  - [pid=1378834] <process did exit: exitCode=1, signal=null>
+  - [pid=1378834] starting temporary directories cleanup
+  - [pid=1378834] finished temporary directories cleanup
+  - [pid=1378834] <gracefully close end>
+
+    at downloadViaPlaywright (/home/nadir/Bureau/SiteVitrine/scripts/download-sheets-csv.js:71:34)
+    at main (/home/nadir/Bureau/SiteVitrine/scripts/download-sheets-csv.js:145:13)
+
+Node.js v22.22.0
+✅ CSV prêt: /tmp/prospects.csv (trié manuellement)
+
+🚀 Lancement prospection: 10 prospects...
+[2026-02-22T16:30:16.084Z] 🚀 DÉMARRAGE PROSPECTION QUOTIDIENNE
+[2026-02-22T16:30:16.134Z] 📊 Objectif: 10 prospects aujourd'hui
+[2026-02-22T16:30:16.138Z] 📁 Fichier: /tmp/prospects.csv
+
+[2026-02-22T16:30:16.173Z] 📊 Historique: 10 prospects déjà traités
+[2026-02-22T16:30:16.177Z] 📖 Lecture du CSV...
+[2026-02-22T16:30:16.481Z] ✅ 967 lignes lues
+[2026-02-22T16:30:16.489Z] 📋 Prospects en attente: 748
+[2026-02-22T16:30:16.493Z] 🎯 Traitement de 10 prospects
+
+[2026-02-22T16:30:16.493Z] 🎨 [1/10] Nicolas Berthier - Avocat PÃ©naliste, PÃ©nal des Affaires, Dommage corporel, Cour d'assises, Comparution ImmÃ©diate, Garde-Ã -Vue
+🎨 Génération site: Nicolas Berthier - Avocat PÃ©naliste, PÃ©nal des Affaires, Dommage corporel, Cour d'assises, Comparution ImmÃ©diate, Garde-Ã -Vue
+🔍 Enrichissement: Nicolas Berthier - Avocat PÃ©naliste, PÃ©nal des Affaires, Dommage corporel, Cour d'assises, Comparution ImmÃ©diate, Garde-Ã -Vue
+✅ Données enrichies: 0 photos, rating: N/A
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-001
+🚀 Déploiement GitHub Pages: daily-2026-02-22-001
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-001/
+[2026-02-22T16:30:26.696Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-001/
+[2026-02-22T16:30:28.698Z] 🎨 [2/10] Hazzan David Avocat
+🎨 Génération site: Hazzan David Avocat
+🔍 Enrichissement: Hazzan David Avocat
+✅ Données enrichies: 0 photos, rating: N/A
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-002
+🚀 Déploiement GitHub Pages: daily-2026-02-22-002
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-002/
+[2026-02-22T16:30:38.496Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-002/
+[2026-02-22T16:30:40.497Z] 🎨 [3/10] AMG Avocats
+🎨 Génération site: AMG Avocats
+🔍 Enrichissement: AMG Avocats
+✅ Données enrichies: 0 photos, rating: N/A
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-003
+🚀 Déploiement GitHub Pages: daily-2026-02-22-003
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-003/
+[2026-02-22T16:30:50.481Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-003/
+[2026-02-22T16:30:52.484Z] 🎨 [4/10] LÃ©na DENICOURT Successeur de TRILOFF AVOCAT (cabinet fermÃ©)
+🎨 Génération site: LÃ©na DENICOURT Successeur de TRILOFF AVOCAT (cabinet fermÃ©)
+🔍 Enrichissement: LÃ©na DENICOURT Successeur de TRILOFF AVOCAT (cabinet fermÃ©)
+❌ Erreur scraper: net::ERR_NETWORK_CHANGED at https://www.google.com/maps/search/L%C3%83%C2%A9na%20DENICOURT%20Successeur%20de%20TRILOFF%20AVOCAT%20(cabinet%20ferm%C3%83%C2%A9)%20https%3A%2F%2Fwww.google.fr%2Fmaps%2Fplace%2FL%25C3%25A9na%2BDENICOURT%2BSuccesseur%2Bde%2BTRILOFF%2BAVOCAT%2B%2528cabinet%2Bferm%25C3%25A9%2529%2Fdata%3D!4m7!3m6!1s0x12c9c0b967194e4d%3A0x181bd4283e06cc93!8m2!3d43.3039809!4d5.3705354!16s%252Fg%252F11bwn5k_kg!19sChIJTU4ZZ7nAyRIRk8wGPijUGxg%3Fauthuser%3D0%26hl%3Dfr%26rclk%3D1
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-004
+🚀 Déploiement GitHub Pages: daily-2026-02-22-004
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-004/
+[2026-02-22T16:30:57.290Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-004/
+[2026-02-22T16:30:59.292Z] 🎨 [5/10] XAVIER COLAS
+🎨 Génération site: XAVIER COLAS
+🔍 Enrichissement: XAVIER COLAS
+❌ Erreur scraper: net::ERR_NETWORK_CHANGED at https://www.google.com/maps/search/XAVIER%20COLAS%20https%3A%2F%2Fwww.google.fr%2Fmaps%2Fplace%2FXAVIER%2BCOLAS%2Fdata%3D!4m7!3m6!1s0x12c9c1d1d6550517%3A0x1e958321838f4824!8m2!3d43.3132079!4d5.3688848!16s%252Fg%252F11rfq35nyv!19sChIJFwVV1tHByRIRJEiPgyGDlR4%3Fauthuser%3D0%26hl%3Dfr%26rclk%3D1
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-005
+🚀 Déploiement GitHub Pages: daily-2026-02-22-005
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-005/
+[2026-02-22T16:31:03.991Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-005/
+[2026-02-22T16:31:05.996Z] 🎨 [6/10] SUDAIX - SociÃ©tÃ© d'Avocats
+🎨 Génération site: SUDAIX - SociÃ©tÃ© d'Avocats
+🔍 Enrichissement: SUDAIX - SociÃ©tÃ© d'Avocats
+✅ Données enrichies: 0 photos, rating: N/A
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-006
+🚀 Déploiement GitHub Pages: daily-2026-02-22-006
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-006/
+[2026-02-22T16:31:16.183Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-006/
+[2026-02-22T16:31:18.185Z] 🎨 [7/10] Avocat Virginia Dumont Scognamiglio
+🎨 Génération site: Avocat Virginia Dumont Scognamiglio
+🔍 Enrichissement: Avocat Virginia Dumont Scognamiglio
+❌ Erreur scraper: net::ERR_NETWORK_CHANGED at https://www.google.com/maps/search/Avocat%20Virginia%20Dumont%20Scognamiglio%20https%3A%2F%2Fwww.google.fr%2Fmaps%2Fplace%2FAvocat%2BVirginia%2BDumont%2BScognamiglio%2Fdata%3D!4m7!3m6!1s0x12c9c0b9ea7a67d3%3A0x68abccfe5f77d2b0!8m2!3d43.2917103!4d5.3723225!16s%252Fg%252F11c520wxcs!19sChIJ02d66rnAyRIRsNJ3X_7Mq2g%3Fauthuser%3D0%26hl%3Dfr%26rclk%3D1
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-007
+🚀 Déploiement GitHub Pages: daily-2026-02-22-007
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-007/
+[2026-02-22T16:31:23.103Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-007/
+[2026-02-22T16:31:25.110Z] 🎨 [8/10] MaÃ®tre Olivier Rosato
+🎨 Génération site: MaÃ®tre Olivier Rosato
+🔍 Enrichissement: MaÃ®tre Olivier Rosato
+✅ Données enrichies: 0 photos, rating: N/A
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-008
+🚀 Déploiement GitHub Pages: daily-2026-02-22-008
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-008/
+[2026-02-22T16:31:34.053Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-008/
+[2026-02-22T16:31:36.063Z] 🎨 [9/10] Avocat Marseille MaÃ®tre Riahi
+🎨 Génération site: Avocat Marseille MaÃ®tre Riahi
+🔍 Enrichissement: Avocat Marseille MaÃ®tre Riahi
+✅ Données enrichies: 0 photos, rating: N/A
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-009
+🚀 Déploiement GitHub Pages: daily-2026-02-22-009
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-009/
+[2026-02-22T16:31:45.452Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-009/
+[2026-02-22T16:31:47.453Z] 🎨 [10/10] Avocat Delavaud Anne-Sophie
+🎨 Génération site: Avocat Delavaud Anne-Sophie
+🔍 Enrichissement: Avocat Delavaud Anne-Sophie
+✅ Données enrichies: 0 photos, rating: N/A
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/daily-2026-02-22-010
+🚀 Déploiement GitHub Pages: daily-2026-02-22-010
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-010/
+[2026-02-22T16:31:56.162Z] ✅ Site déployé: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-010/
+[2026-02-22T16:31:56.163Z] 💾 Liste SMS prête: 10 contacts
+[2026-02-22T16:31:56.163Z] 
+==================================================
+[2026-02-22T16:31:56.164Z] 📊 RÉSUMÉ QUOTIDIEN
+[2026-02-22T16:31:56.164Z] ==================================================
+[2026-02-22T16:31:56.165Z] ✅ Sites générés: 10
+[2026-02-22T16:31:56.165Z] ❌ Échecs: 0
+[2026-02-22T16:31:56.166Z] 📊 Total traités: 20
+[2026-02-22T16:31:56.166Z] 📅 Aujourd'hui: 10
+[2026-02-22T16:31:56.166Z] 
+🌐 URLs des sites:
+[2026-02-22T16:31:56.167Z]    1. Nicolas Berthier - Avocat PÃ©naliste, PÃ©nal des Affaires, Dommage corporel, Cour d'assises, Comparution ImmÃ©diate, Garde-Ã -Vue: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-001/
+[2026-02-22T16:31:56.167Z]    2. Hazzan David Avocat: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-002/
+[2026-02-22T16:31:56.168Z]    3. AMG Avocats: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-003/
+[2026-02-22T16:31:56.169Z]    4. LÃ©na DENICOURT Successeur de TRILOFF AVOCAT (cabinet fermÃ©): https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-004/
+[2026-02-22T16:31:56.169Z]    5. XAVIER COLAS: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-005/
+[2026-02-22T16:31:56.170Z]    6. SUDAIX - SociÃ©tÃ© d'Avocats: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-006/
+[2026-02-22T16:31:56.170Z]    7. Avocat Virginia Dumont Scognamiglio: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-007/
+[2026-02-22T16:31:56.170Z]    8. MaÃ®tre Olivier Rosato: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-008/
+[2026-02-22T16:31:56.171Z]    9. Avocat Marseille MaÃ®tre Riahi: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-009/
+[2026-02-22T16:31:56.171Z]    10. Avocat Delavaud Anne-Sophie: https://Nadir-DNA.github.io/sitevitrine-daily-2026-02-22-010/
+[2026-02-22T16:31:56.172Z] 
+✅ Traitement quotidien terminé !
+[2026-02-22T16:31:56.172Z] 
+📝 IMPORTANT: Mets à jour la colonne "Statut" dans Google Sheets:
+[2026-02-22T16:31:56.173Z]    Pour les prospects traités aujourd'hui, mets: "SITE_GENERE"
+[2026-02-22T16:31:56.173Z]    Ajoute la date dans la colonne "Date Contact"
+[2026-02-22T16:31:56.173Z] 
+💾 Résultats sauvegardés: /home/nadir/Bureau/SiteVitrine/scripts/daily-results.json
+[2026-02-22T16:31:56.174Z] 💾 Statut global: /home/nadir/Bureau/SiteVitrine/scripts/prospection-status.json
+
+📝 Mise à jour du statut Google Sheets...
+📝 Mise à jour du statut Google Sheets...
+
+✅ 10 prospects traités avec succès
+
+✅ Fichiers de mise à jour créés:
+   📄 JSON: /home/nadir/Bureau/SiteVitrine/scripts/status-update-2026-02-22.json
+   📄 CSV: /home/nadir/Bureau/SiteVitrine/scripts/status-update-2026-02-22.csv
+
+📝 Pour mettre à jour Google Sheets:
+   1. Ouvre ton Google Sheets
+   2. Fichier → Importer
+   3. Sélectionne: status-update-2026-02-22.csv
+   4. Choisis "Remplacer les données" ou "Ajouter"
+   5. Vérifie que les colonnes correspondent
+
+📋 Résumé des mises à jour:
+   1. Nicolas Berthier - Avocat PÃ©naliste, PÃ©nal des Affaires, Dommage corporel, Cour d'assises, Comparution ImmÃ©diate, Garde-Ã -Vue → SITE_GENERE
+   2. Hazzan David Avocat → SITE_GENERE
+   3. AMG Avocats → SITE_GENERE
+   4. LÃ©na DENICOURT Successeur de TRILOFF AVOCAT (cabinet fermÃ©) → SITE_GENERE
+   5. XAVIER COLAS → SITE_GENERE
+   6. SUDAIX - SociÃ©tÃ© d'Avocats → SITE_GENERE
+   7. Avocat Virginia Dumont Scognamiglio → SITE_GENERE
+   8. MaÃ®tre Olivier Rosato → SITE_GENERE
+   9. Avocat Marseille MaÃ®tre Riahi → SITE_GENERE
+   10. Avocat Delavaud Anne-Sophie → SITE_GENERE
+
+📱 Envoi SMS Digital DNA...
+📱 Préparation envoi SMS pour 10 prospects...
+
+📱 10 SMS à envoyer
+
+
+📤 [1/10] Nicolas Berthier - Avocat PÃ©naliste, PÃ©nal des Affaires, Dommage corporel, Cour d'assises, Comparution ImmÃ©diate, Garde-Ã -Vue
+   📞 783180479
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+📤 [2/10] Hazzan David Avocat
+   📞 491220228
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+📤 [3/10] AMG Avocats
+   📞 491571079
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+📤 [4/10] LÃ©na DENICOURT Successeur de TRILOFF AVOCAT (cabinet fermÃ©)
+   📞 413940588
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+📤 [5/10] XAVIER COLAS
+   📞 484895106
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+📤 [6/10] SUDAIX - SociÃ©tÃ© d'Avocats
+   📞 412047405
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+📤 [7/10] Avocat Virginia Dumont Scognamiglio
+   📞 668976706
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+📤 [8/10] MaÃ®tre Olivier Rosato
+   📞 491912203
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+📤 [9/10] Avocat Marseille MaÃ®tre Riahi
+   📞 623495057
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+📤 [10/10] Avocat Delavaud Anne-Sophie
+   📞 482291057
+   💬 Message: Bonjour,
+
+J'ai vu que contrairement à vos concurrents, vous n'aviez pas de site internet. Je viens d...
+   ❌ Erreur réseau: prospect.telephone.replace is not a function
+
+==================================================
+📊 RÉSUMÉ ENVOI SMS
+==================================================
+✅ SMS envoyés: 0
+❌ Échecs: 10
+📱 Total: 10
+
+💾 Résultats sauvegardés: /home/nadir/Bureau/SiteVitrine/scripts/sms-results.json
+
+=== Fin dim. 22 févr. 2026 17:32:15 CET - Code: 0 ===

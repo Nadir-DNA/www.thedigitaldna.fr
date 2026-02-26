@@ -1,0 +1,122 @@
+[
+  {
+    "id": "sms-campaign-1",
+    "prospect": {
+      "id": 1,
+      "name": "MaÃ®tre Fiona SILES - Avocat Marseille",
+      "phone": "+33614675809",
+      "activity": "Avocat"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/1",
+    "metier": "avocat",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-1"
+  },
+  {
+    "id": "sms-campaign-2",
+    "prospect": {
+      "id": 2,
+      "name": "Hamdi BACHTLI - AVOCAT - ÃTRANGERS - OQTF - TITRE DE SÃJOUR - ASILE - NATIONALITÃ - DIVORCE AMIABLE",
+      "phone": "+33765834084",
+      "activity": "Avocat"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/2",
+    "metier": "avocat",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-2"
+  },
+  {
+    "id": "sms-campaign-3",
+    "prospect": {
+      "id": 3,
+      "name": "Cabinet Karim BOUGUESSA - AVOCAT",
+      "phone": "+33677120074",
+      "activity": "Avocat"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/3",
+    "metier": "avocat",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-3"
+  },
+  {
+    "id": "sms-campaign-4",
+    "prospect": {
+      "id": 4,
+      "name": "Taillepied Avocat",
+      "phone": "+33668108431",
+      "activity": "Avocat"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/4",
+    "metier": "avocat",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-4"
+  },
+  {
+    "id": "sms-campaign-5",
+    "prospect": {
+      "id": 5,
+      "name": "MaÃ®tre AurÃ©lie PLANTIN - Avocate en droit de l'urbanisme Ã  Marseille",
+      "phone": "+33625693606",
+      "activity": "Avocat"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/5",
+    "metier": "avocat",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-5"
+  },
+  {
+    "id": "sms-campaign-6",
+    "prospect": {
+      "id": 6,
+      "name": "Jimmy IMPINNA Avocat - Droit du Travail",
+      "phone": "+33778211400",
+      "activity": "Avocat"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/6",
+    "metier": "avocat",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-6"
+  },
+  {
+    "id": "sms-campaign-7",
+    "prospect": {
+      "id": 7,
+      "name": "Cyril CASANOVA Avocat",
+      "phone": "+33666905693",
+      "activity": "Avocat"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/7",
+    "metier": "avocat",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-7"
+  },
+  {
+    "id": "sms-campaign-8",
+    "prospect": {
+      "id": 8,
+      "name": "Avocat Marseille - Me ZERBIB NoÃ©mie",
+      "phone": "+33614882434",
+      "activity": "Avocat"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/8",
+    "metier": "avocat",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-8"
+  },
+  {
+    "id": "sms-campaign-9",
+    "prospect": {
+      "id": 9,
+      "name": "FARELEC",
+      "phone": "+33768161840",
+      "activity": "Ãlectricien"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/9",
+    "metier": "default",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-9"
+  },
+  {
+    "id": "sms-campaign-10",
+    "prospect": {
+      "id": 10,
+      "name": "Shahzad Ahmad Electricien",
+      "phone": "+33783477676",
+      "activity": "Ãlectricien"
+    },
+    "deployedUrl": "https://digital-dna.fr/site/10",
+    "metier": "default",
+    "siteDir": "/home/nadir/Bureau/SiteVitrine/generated/sms-campaign-10"
+  }
+]

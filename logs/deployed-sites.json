@@ -1,0 +1,35 @@
+[
+  {
+    "id": "test-001",
+    "dir": "../generated/test-001",
+    "prospect": {
+      "raison_sociale": "Coiffure Martin",
+      "ville": "Paris",
+      "telephone": "+33612345678"
+    },
+    "deployedUrl": "https://Nadir-DNA.github.io/sitevitrine-test-001/",
+    "deployedAt": "2026-02-21T13:09:30.398Z"
+  },
+  {
+    "id": "test-002",
+    "dir": "../generated/test-002",
+    "prospect": {
+      "raison_sociale": "Institut Sophie",
+      "ville": "Lyon",
+      "telephone": "+33698765432"
+    },
+    "deployedUrl": "https://Nadir-DNA.github.io/sitevitrine-test-002/",
+    "deployedAt": "2026-02-21T13:09:34.034Z"
+  },
+  {
+    "id": "test-003",
+    "dir": "../generated/test-003",
+    "prospect": {
+      "raison_sociale": "Plomberie Moreau",
+      "ville": "Bordeaux",
+      "telephone": "+33655544433"
+    },
+    "deployedUrl": "https://Nadir-DNA.github.io/sitevitrine-test-003/",
+    "deployedAt": "2026-02-21T13:09:37.789Z"
+  }
+]

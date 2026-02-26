@@ -1,0 +1,23 @@
+{
+  "id": "prospect-003",
+  "raison_sociale": "HCPC",
+  "activite": "Service de réparation de systèmes de climatisation",
+  "telephone": "+33 6 52 20 80 07",
+  "email": "hcpc@email.com",
+  "adresse": "84271 CEDEX,  Vedène",
+  "ville": " Vedène",
+  "rating": null,
+  "reviews": 24,
+  "google_maps_url": "https://www.google.com/maps/place/HCPC/@43.9860265,4.9136546999999995,14z/data=!4m8!1m2!2m1!1sHCPC!3m4!1s0x12b5f2a5308bd30b:0x7eb9f91abd0d49cc!8m2!3d43.9860265!4d4.9136546999999995",
+  "place_id": "ChIJC9OLMKXytRIRzEkNvRr5uX4",
+  "_source": "outscraper_excel",
+  "_extracted_at": "2026-02-21T16:46:40.601Z",
+  "photos": [],
+  "review_count": null,
+  "address": null,
+  "phone": null,
+  "hours": null,
+  "description": null,
+  "_enriched": true,
+  "_enrichedAt": "2026-02-21T16:47:27.685Z"
+}

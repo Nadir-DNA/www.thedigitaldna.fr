@@ -1,0 +1,13 @@
+=== Prospection Digital DNA - dim. 22 févr. 2026 18:38:43 CET ===
+Max sites: 2, SMS: false
+
+📥 Téléchargement des prospects...
+🚀 Téléchargement CSV depuis Google Sheets
+
+📊 Sheet ID: 1rleRNrHQ7dG_oSwG1jsSMLtMD3B9Hpu5O5090yPfubg
+📁 Output: /tmp/prospects.csv
+
+📡 Méthode 1: API Google Sheets...
+✅ CSV téléchargé via API: /tmp/prospects.csv
+   158 lignes, 26 colonnes
+❌ Erreur: prospects.csv non trouvé

@@ -1,0 +1,39 @@
+=== Prospection Digital DNA - dim. 22 févr. 2026 18:39:19 CET ===
+Max sites: 2, SMS: false
+
+📥 Téléchargement des prospects...
+🚀 Téléchargement CSV depuis Google Sheets
+
+📊 Sheet ID: 1rleRNrHQ7dG_oSwG1jsSMLtMD3B9Hpu5O5090yPfubg
+📁 Output: /tmp/prospects.csv
+
+📡 Méthode 1: API Google Sheets...
+✅ CSV téléchargé via API: /tmp/prospects.csv
+   158 lignes, 26 colonnes
+🔍 Filtrage des prospects...
+🔍 Filtrage automatique des prospects
+
+Critères:
+  ❌ Sans site web
+  ❌ Sans téléphone
+  ❌ Numéros fixes (01, 02, 03, 04, 05, 09)
+  ✅ Uniquement mobiles (06, 07)
+
+📖 Lecture: 2
+❌ Erreur: ENOENT: no such file or directory, open '2'
+Error: ENOENT: no such file or directory, open '2'
+    at Object.openSync (node:fs:560:18)
+    at Object.readFileSync (node:fs:444:35)
+    at read_binary (/home/nadir/Bureau/SiteVitrine/scripts/node_modules/xlsx/xlsx.js:3153:44)
+    at readSync (/home/nadir/Bureau/SiteVitrine/scripts/node_modules/xlsx/xlsx.js:23698:69)
+    at Object.readFileSync (/home/nadir/Bureau/SiteVitrine/scripts/node_modules/xlsx/xlsx.js:23738:9)
+    at filterProspects (file:///home/nadir/Bureau/SiteVitrine/scripts/filter-prospects-auto.js:88:27)
+    at file:///home/nadir/Bureau/SiteVitrine/scripts/filter-prospects-auto.js:178:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '2'
+}

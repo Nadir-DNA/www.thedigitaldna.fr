@@ -1,0 +1,30 @@
+{
+  "id": "excel-005",
+  "raison_sociale": "MONTEL PAYSAGE",
+  "activite": "Paysagiste",
+  "telephone": "+33 6 51 18 60 36",
+  "email": "montel.paysage@email.com",
+  "adresse": " 4370,  Villars-Colmars",
+  "ville": " Villars-Colmars",
+  "code_postal": "",
+  "description": null,
+  "services": [
+    "Paysagiste",
+    "Devis gratuit",
+    "Intervention rapide"
+  ],
+  "rating": null,
+  "reviews": 30,
+  "google_maps_url": "https://www.google.com/maps/place/MONTEL+PAYSAGE/@44.086174299999996,6.1155251,14z/data=!4m8!1m2!2m1!1sMONTEL+PAYSAGE!3m4!1s0xa5a18bbc47ee3879:0x244216d4bf591e17!8m2!3d44.086174299999996!4d6.1155251",
+  "place_id": "ChIJeTjuR7yLoaURFx5Zv9QWQiQ",
+  "_source": "outscraper_excel",
+  "_filtered_at": "2026-02-21T16:48:38.694Z",
+  "_id": "excel-005",
+  "address": null,
+  "phone": null,
+  "photos": [],
+  "review_count": null,
+  "hours": null,
+  "_enriched": true,
+  "_enrichedAt": "2026-02-21T16:49:28.165Z"
+}

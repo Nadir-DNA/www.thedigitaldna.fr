@@ -1,0 +1,23 @@
+{
+  "id": "prospect-001",
+  "raison_sociale": "Lun'elec | Electricien bâtiment | Arles",
+  "activite": "Électricien",
+  "telephone": "+33 6 28 41 70 77",
+  "email": "lunelec.|.electricien.bâtiment.|.arles@email.com",
+  "adresse": "13641 CEDEX,  Arles",
+  "ville": " Arles",
+  "rating": null,
+  "reviews": 61,
+  "google_maps_url": "https://www.google.com/maps/place/Lun%27elec+%7C+Electricien+b%C3%A2timent+%7C+Arles/@43.664659799999995,4.6156413,14z/data=!4m8!1m2!2m1!1sLun%27elec+%7C+Electricien+b%C3%A2timent+%7C+Arles!3m4!1s0x12b6765767a3233d:0x99dd6ced83129440!8m2!3d43.664659799999995!4d4.6156413",
+  "place_id": "ChIJPSOjZ1d2thIRQJQSg-1s3Zk",
+  "_source": "outscraper_excel",
+  "_extracted_at": "2026-02-21T16:46:40.601Z",
+  "photos": [],
+  "review_count": null,
+  "address": null,
+  "phone": null,
+  "hours": null,
+  "description": null,
+  "_enriched": true,
+  "_enrichedAt": "2026-02-21T16:47:19.102Z"
+}

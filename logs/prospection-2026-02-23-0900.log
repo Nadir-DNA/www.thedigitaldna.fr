@@ -1,0 +1,30 @@
+=== Prospection Digital DNA - lun. 23 févr. 2026 09:00:01 CET ===
+Max sites: 10, SMS: false
+
+📥 Téléchargement des prospects...
+🚀 Téléchargement CSV depuis Google Sheets
+
+📊 Sheet ID: 1rleRNrHQ7dG_oSwG1jsSMLtMD3B9Hpu5O5090yPfubg
+📁 Output: /tmp/prospects.csv
+
+📡 Méthode 1: API Google Sheets...
+✅ CSV téléchargé via API: /tmp/prospects.csv
+   158 lignes, 26 colonnes
+🔍 Filtrage des prospects...
+🔍 Filtrage automatique des prospects
+
+📊 Total: 157
+✅ Qualifications: 157
+❌ Exclus: 0
+
+📊 Déjà contactés: 0
+🌐 Ont site: 0
+📞 Pas tel: 0
+❌ Tel invalide: 0
+📠 Fixes: 0
+💾 Sauvegardé: /tmp/prospects-filtered.csv (10 prospects)
+🔄 Conversion en JSON...
+✅ 10 prospects filtrés
+🏗️ Génération des sites...
+
+=== Terminé - lun. 23 févr. 2026 09:00:19 CET ===

@@ -1,0 +1,30 @@
+{
+  "id": "excel-002",
+  "raison_sociale": "IPC84 Plomberie",
+  "activite": "Plombier",
+  "telephone": "+33 6 35 77 18 50",
+  "email": "ipc84.plomberie@email.com",
+  "adresse": " 84271 CEDEX,  Vedène",
+  "ville": " Vedène",
+  "code_postal": "84271",
+  "description": null,
+  "services": [
+    "Plombier",
+    "Devis gratuit",
+    "Intervention rapide"
+  ],
+  "rating": null,
+  "reviews": 38,
+  "google_maps_url": "https://www.google.com/maps/place/IPC84+Plomberie/@44.0030563,4.9171794,14z/data=!4m8!1m2!2m1!1sIPC84+Plomberie!3m4!1s0x8caef536e16f0445:0xc01ccd4f60b5d4b2!8m2!3d44.0030563!4d4.9171794",
+  "place_id": "ChIJRQRv4Tb1rowRstS1YE_NHMA",
+  "_source": "outscraper_excel",
+  "_filtered_at": "2026-02-21T16:48:38.694Z",
+  "_id": "excel-002",
+  "address": null,
+  "phone": null,
+  "photos": [],
+  "review_count": null,
+  "hours": null,
+  "_enriched": true,
+  "_enrichedAt": "2026-02-21T16:49:06.643Z"
+}

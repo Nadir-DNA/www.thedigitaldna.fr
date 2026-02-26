@@ -1,0 +1,28 @@
+# Crontab prospection quotidienne SiteVitrine
+
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin:/home/nadir/.nvm/versions/node/v22.22.0/bin
+
+# === SITEVITRINE ===
+# === PROSPECTION MATIN (9h) ===
+0 9 * * * /home/nadir/Bureau/SiteVitrine/scripts/run-prospection.sh 10 >> /home/nadir/Bureau/SiteVitrine/logs/cron.log 2>&1
+# === ENVOI SMS (17h30) ===
+30 17 * * * /home/nadir/Bureau/SiteVitrine/scripts/run-prospection.sh 20 --send-sms >> /home/nadir/Bureau/SiteVitrine/logs/cron-sms.log 2>&1
+# === NETTOYAGE LOGS (dimanche 3h) ===
+0 3 * * 0 find /home/nadir/Bureau/SiteVitrine/logs -name "*.log" -mtime +30 -delete
+
+# === AMENS E2E TESTS (0h-6h) ===
+# 00h00 - Homepage + Pages status
+0 0 * * * cd /home/nadir/.openclaw/workspace/amens && ./run-tests.sh homepage.spec.ts >> /home/nadir/.openclaw/workspace/amens/logs/e2e-0000.log 2>&1
+# 01h00 - User flows (login, dashboard client)
+0 1 * * * cd /home/nadir/.openclaw/workspace/amens && ./run-tests.sh user-flows.spec.ts >> /home/nadir/.openclaw/workspace/amens/logs/e2e-0100.log 2>&1
+# 02h00 - Profile + Agenda
+0 2 * * * cd /home/nadir/.openclaw/workspace/amens && ./run-tests.sh partie2-profile-agenda.spec.ts >> /home/nadir/.openclaw/workspace/amens/logs/e2e-0200.log 2>&1
+# 03h00 - RDV + CRM
+0 3 * * * cd /home/nadir/.openclaw/workspace/amens && ./run-tests.sh partie3-rdv-crm.spec.ts >> /home/nadir/.openclaw/workspace/amens/logs/e2e-0300.log 2>&1
+# 04h00 - Checkout flow
+0 4 * * * cd /home/nadir/.openclaw/workspace/amens && ./run-tests.sh checkout.spec.ts >> /home/nadir/.openclaw/workspace/amens/logs/e2e-0400.log 2>&1
+# 05h00 - Pricing
+0 5 * * * cd /home/nadir/.openclaw/workspace/amens && ./run-tests.sh pricing.spec.ts >> /home/nadir/.openclaw/workspace/amens/logs/e2e-0500.log 2>&1
+# 06h00 - All flows
+0 6 * * * cd /home/nadir/.openclaw/workspace/amens && ./run-tests.sh amens-production.spec.ts >> /home/nadir/.openclaw/workspace/amens/logs/e2e-0600.log 2>&1
