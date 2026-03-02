@@ -1,0 +1,74 @@
+=== Prospection Digital DNA - jeu. 26 févr. 2026 17:30:02 CET ===
+Max sites: 20, SMS: true
+
+📥 Téléchargement des prospects...
+🚀 Téléchargement CSV depuis Google Sheets
+
+📊 Sheet ID: 1rleRNrHQ7dG_oSwG1jsSMLtMD3B9Hpu5O5090yPfubg
+📁 Output: /tmp/prospects.csv
+
+📡 Méthode 1: API Google Sheets...
+✅ CSV téléchargé via API: /tmp/prospects.csv
+   158 lignes, 26 colonnes
+🔍 Filtrage des prospects...
+🔍 Filtrage automatique des prospects
+
+📊 Total: 157
+✅ Qualifications: 157
+❌ Exclus: 0
+
+📊 Déjà contactés: 0
+🌐 Ont site: 0
+📞 Pas tel: 0
+❌ Tel invalide: 0
+📠 Fixes: 0
+💾 Sauvegardé: /tmp/prospects-filtered.csv (20 prospects)
+🔄 Conversion en JSON...
+✅ 20 prospects filtrés
+🏗️ Génération des sites...
+📱 Envoi des SMS...
+[2026-02-26T16:30:16.741Z] 🚀 TEST: Génération avec prospects de test...
+[2026-02-26T16:30:16.779Z] 📥 3 prospects de test chargés
+[2026-02-26T16:30:16.896Z] 🎨 Génération des sites...
+🎨 Génération site: Coiffure Martin
+🔍 Enrichissement: Martin Dupont
+✅ Données enrichies: 0 photos, rating: N/A
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/test-001
+[2026-02-26T16:30:23.953Z] ✅ Site généré: Coiffure Martin
+🎨 Génération site: Institut Sophie
+🔍 Enrichissement: Sophie Bernard
+❌ Erreur scraper: net::ERR_NETWORK_CHANGED at https://www.google.com/maps/search/Institut%20Sophie%20Lyon
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/test-002
+[2026-02-26T16:30:25.675Z] ✅ Site généré: Institut Sophie
+🎨 Génération site: Plomberie Moreau
+🔍 Enrichissement: Jean Moreau
+✅ Données enrichies: 0 photos, rating: N/A
+✅ Site généré: /home/nadir/Bureau/SiteVitrine/generated/test-003
+[2026-02-26T16:30:32.007Z] ✅ Site généré: Plomberie Moreau
+[2026-02-26T16:30:32.007Z] ✅ 3 sites générés
+[2026-02-26T16:30:32.008Z] 🚀 Déploiement GitHub Pages...
+🚀 Déploiement GitHub Pages: test-001
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-test-001/
+🚀 Déploiement GitHub Pages: test-002
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-test-002/
+🚀 Déploiement GitHub Pages: test-003
+✅ Déployé: https://Nadir-DNA.github.io/sitevitrine-test-003/
+[2026-02-26T16:30:49.548Z] ✅ 3 sites déployés
+[2026-02-26T16:30:49.548Z] 📱 Envoi des SMS aux prospects...
+📱 Envoi SMS à: +33123456789
+✅ SMS envoyé: undefined
+[2026-02-26T16:30:50.305Z] ✅ SMS envoyé à: Coiffure Martin
+📱 Envoi SMS à: +33456789012
+✅ SMS envoyé: undefined
+[2026-02-26T16:30:50.532Z] ✅ SMS envoyé à: Institut Sophie
+📱 Envoi SMS à: +33567890123
+✅ SMS envoyé: undefined
+[2026-02-26T16:30:50.930Z] ✅ SMS envoyé à: Plomberie Moreau
+[2026-02-26T16:30:50.931Z] 📊 SMS: 3 envoyés, 0 échoués
+[2026-02-26T16:30:50.934Z] 💾 Sites sauvegardés pour référence
+[2026-02-26T16:30:50.935Z] ✅ TERMINÉ AVEC SUCCÈS
+[2026-02-26T16:30:50.936Z]    🌐 Coiffure Martin: https://Nadir-DNA.github.io/sitevitrine-test-001/
+[2026-02-26T16:30:50.937Z]    🌐 Institut Sophie: https://Nadir-DNA.github.io/sitevitrine-test-002/
+[2026-02-26T16:30:50.938Z]    🌐 Plomberie Moreau: https://Nadir-DNA.github.io/sitevitrine-test-003/
+
+=== Terminé - jeu. 26 févr. 2026 17:30:50 CET ===
