@@ -50,32 +50,13 @@
   </div>
   <script>
     (function() {
-      const path = window.location.pathname;
-      // Matcher /sms-campaign-1, /sms-campaign-2, etc. ou /1, /2
-      const matches = path.match(/(?:\/sms-campaign-)?(\d+)(?:\/(.+))?\/?$/);
-      
+      var path = window.location.pathname;
+      var matches = path.match(/(\d+)(?:\/.*)?$/);
       if (matches && matches[1]) {
-        const siteId = 'sms-campaign-' + matches[1];
-        const subPath = matches[2] || '';
-        const githubUrl = window.location.origin + '/' + siteId + '/' + (subPath || '');
-        
-        document.getElementById('redirectLink').href = githubUrl;
-        
-        // Vérifier si le dossier existe
-        fetch(githubUrl, { method: 'HEAD' })
-          .then(function(response) {
-            if (response.ok) {
-              window.location.href = githubUrl;
-            } else {
-              throw new Error('Not found');
-            }
-          })
-          .catch(function() {
-            document.querySelector('h1').textContent = 'Site non trouvé';
-            document.querySelector('p').textContent = 'Le site demandé n\'existe pas encore';
-            document.getElementById('redirectLink').style.display = 'none';
-            document.querySelector('.loader').style.display = 'none';
-          });
+        var siteId = matches[1];
+        var targetUrl = '/sitevitrine-sms-campaign/sms-campaign-' + siteId + '/';
+        document.getElementById('redirectLink').href = targetUrl;
+        setTimeout(function() { window.location.href = targetUrl; }, 1500);
       } else {
         document.querySelector('h1').textContent = 'Digital DNA';
         document.querySelector('p').textContent = 'Sites vitrines professionnels';
